@@ -8,7 +8,7 @@ import io
 app = FastAPI()
 
 # Ссылка на публичную Google Таблицу (CSV экспорт)
-SHEET_ID = "1RPTTRmLf6RQSeYjGoZtg0eyXmfDlwqaU"
+SHEET_ID = "1JaL7-otunC3ERFqHM3UYDtAo-aM3ad_R"
 # Используем формат export вместо gviz для получения всех данных
 GOOGLE_SHEET_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=csv"
 
